@@ -1,8 +1,13 @@
 # hpvh_dockerfile
 ## how to use
+
+Clone this repo:
+
+`git clone https://github.com/Wsteth/hpvh_dockerfile`
+
 Build the image:
 
-`docker build -t hpvh .`
+`cd hpvh_dockerfile && docker build -t hpvh .`
 
 Run a container:
 
