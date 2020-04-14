@@ -11,4 +11,4 @@ Build the image:
 
 Run a container:
 
-`docker run -d --name hpvh_container-p 80:80 hpvh`
+`docker run -d --name hpvh_container -p 80:80 hpvh`
