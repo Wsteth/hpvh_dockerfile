@@ -6,7 +6,7 @@ ENV STATIC_INDEX 0
 ENV STATIC_PATH /app/frontend
 RUN git clone -b develop https://github.com/COMP3030JG3/hpvh_backend.git /tempapp \
 	&& cp -rf /tempapp /app \
-	&& rm -rf /tempapp
+	&& rm -rf /tempapp \
 	&& git clone -b develop https://github.com/COMP3030JG3/hpvh_frontend.git /frontend \
 	&& pip install -r /app/requirements.txt \
 	&& apt-get install nodejs \
